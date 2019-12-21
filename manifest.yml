@@ -6,3 +6,4 @@ applications:
     path: ./build/libs/pcf-demo-0.0.1-SNAPSHOT.jar
     services:
       - pcf-test-mysql
+      - config-server

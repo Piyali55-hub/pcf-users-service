@@ -7,3 +7,5 @@ applications:
     services:
       - pcf-test-mysql
       - config-server
+    env:
+      TRUST_CERTS: api.run.pivotal.io
